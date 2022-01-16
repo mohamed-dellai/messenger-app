@@ -1,0 +1,65 @@
+.left{
+    background-color: white;
+    width: 30vw;
+    background-color: rgba(211, 211, 211, 0.2);
+}
+.profile-img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  height: 53.6px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.head1{
+ background-color: var(--main-grey);
+ height: 70px;
+ border-right: solid rgba(0, 0, 0, 0.527) .5px;
+ display: flex;
+ align-items: center;
+}
+.find{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(246, 246, 246);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.friends-list{
+
+    height: 100%;
+   
+}
+.friends-list img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    height: 56.6px;
+    margin-right: 10px;
+    aspect-ratio: 16/9;
+    margin-left: 10px;
+}
+.theFriend{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+    border-top: .1px rgba(0, 0, 0, 0.171) solid;
+    border-bottom: .1px rgba(0, 0, 0, 0.171) solid;
+    background-color: white;
+    cursor: pointer;
+}
+
+.theFriend p {
+    
+    letter-spacing: 1px;
+}
+
+
+
+
+

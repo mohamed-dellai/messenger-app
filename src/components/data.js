@@ -1,0 +1,2 @@
+export var info={name: 'Mohamed Dellai' , phone: '20201133' , city: 'Béja' , pass: "test123" ,photo:'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'}
+ 

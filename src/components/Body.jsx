@@ -63,7 +63,8 @@ export function Body(props){
   function cancelLoad(){
     var elem=document.getElementById('loader');
     console.log(elem);
-    elem.style.opacity="0";
+    elem.style.display="none";
+    
   }
   
   const search=<div className='search-in'>  <input placeholder='enter' value={searchword} onChange={filter}/> </div>

@@ -42,7 +42,7 @@ export function Body(props){
       window.removeEventListener('keypress', handleUserKeyPress);
     };
   });
-
+   
   function filter(e){
 
   
@@ -59,11 +59,17 @@ export function Body(props){
   
     setsearch(e.target.value);
   }
+
+  function cancelLoad(){
+    var elem=document.getElementById('loader');
+    console.log(elem);
+    elem.style.opacity="0";
+  }
   
   const search=<div className='search-in'>  <input placeholder='enter' value={searchword} onChange={filter}/> </div>
   if(props.onetwo==1){ 
     return(
-        <div className='main-body'>
+        <div className='main-body' onLoad={cancelLoad}>
           <div className='head'>
             <div className='first'>
               <img src={info2.photo}></img>
@@ -101,7 +107,7 @@ export function Body(props){
     )}
     else if(props.onetwo==2){
       return(
-        <div className='main-body'>
+        <div className='main-body' onLoad={cancelLoad}>
           <div className='head'>
             <div className='first'>
               <img src={info.photo}></img>

@@ -2,6 +2,7 @@ import React from 'react'
 import {info} from './data.js'
 import {info2} from './data2.js'
 export function Left(props){
+   
     if(props.onetwo==1){
     return(
         <div className='left'>

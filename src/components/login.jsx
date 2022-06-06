@@ -7,6 +7,8 @@ const [password, setPassword] = useState('')
 const [visibleWelcome, setWelcome] = useState(false)
 const [visibleWrong, setWrong] = useState(false)
 
+console.log(info)
+console.log(info2)
 
 
 
